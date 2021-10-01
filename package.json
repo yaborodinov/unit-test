@@ -1,0 +1,29 @@
+{
+  "name": "intro-unit-testing",
+  "version": "1.0.0",
+  "description": "Jest intro",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaborodinov/unit-test.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "jest",
+    "unit",
+    "testing"
+  ],
+  "author": "Borodinov <yaborodinov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaborodinov/unit-test/issues"
+  },
+  "homepage": "https://github.com/yaborodinov/unit-test#readme",
+  "devDependencies": {
+    "jest": "^27.2.4"
+  }
+}

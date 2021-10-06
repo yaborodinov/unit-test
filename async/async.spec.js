@@ -11,4 +11,12 @@ describe('Ajax: echo', () => {
       expect(data).toBe('some data')
     })
   })
+
+  test('should return value with promise', async () => {
+    try {
+      await Ajax.echo()
+    } catch (e) {
+      expect(e.message).toBe('error')
+    }
+  })
 })

@@ -11,4 +11,4 @@ function forEach(items, callback) {
   }
 }
 
-module.exports = {map, forEach}
+module.exports = { map, forEach }

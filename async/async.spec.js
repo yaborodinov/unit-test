@@ -45,7 +45,7 @@ describe('Ajax GET', () => {
   })
 
   test('should return data from backend', () => {
-    axios.get.mockReturnValues(response)
+    axios.get.mockReturnValue(response)
 
     return Ajax.get().then(data => {
       expect(data.todos).toEqual(todos)
